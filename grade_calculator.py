@@ -7,3 +7,15 @@ for i in range(3):
 avg = sum(marks)/3
 
 print("Average: ", avg)
+
+if avg >= 90:
+    print("Grade A")
+
+elif avg >= 60:
+    print("Grade B")
+
+elif avg >= 20:
+    print("Grade C")
+
+else:
+    print("You Failed")
