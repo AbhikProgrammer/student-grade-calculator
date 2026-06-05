@@ -19,3 +19,6 @@ elif avg >= 20:
 
 else:
     print("You Failed")
+
+print("\n Highest marks: ", max(marks))
+print("Lowest marks: ", min(marks))
